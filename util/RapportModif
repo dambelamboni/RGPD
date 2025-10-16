@@ -1,0 +1,25 @@
+Jeudi 28/03/2024
+
+Auteur des modifications: DAMBE Lamboni
+
+Fichier Modifiés: /controller/AuthController.sql (Validation de creation de compte coté back), Ajout de methode de suppresion de compte
+		  /model/UserCompte.sql(Ajouter de la methode de suppression de compte qui supprime a la fois le compte utilisateur et ses donnees de candidature associées.
+	
+		 /vue/squellette.php (Ajout de lien qui renvoi vers nos conditions generales d'utilisations)
+
+                /vue/inscription.sql (ajout de la valeur accpeted pour les condition generales d'utilisation)
+
+		/creation du fichier cgu_rgpd.pdf  pour les conditions générales d'utilisation. 
+
+NB: J'ai effectuer les backup de ces fichiers concernés avant tout modification.
+
+
+
+
+Dimanche 01/04/2024
+
+Auteur des Modifications : DAMBE Lamboni
+
+Fichiers Modifiers: /controller/AuthController.sql (verification du token, validation de l'attaque bufferOverflow)
+		   /vue/fragment/inscription.sql et admission.sql (generation de token et ajout d'un champs de type hide qui transmet le token generé)
+		
